@@ -1,6 +1,6 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  display: block;
+  text-align: center;
 }
 
 header {
@@ -12,6 +12,15 @@ header {
 
 .hidden {
   display: none;
+}
+
+div p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+div img {
+  max-height: 200px;
 }
 
 img {
