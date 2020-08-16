@@ -11,13 +11,14 @@ function displayResults(responseJson) {
   for (let i = 0; i < responseJson.data.length; i++) {
     $(".search-results").append(`<li>
     <h3>${responseJson.data[i].fullName}</h3>
-    <img src="${responseJson.data[i].images[1].url}" alt="first-gallery-image">
     <p>${responseJson.data[i].description}</p>
     <a href="${responseJson.data[i].url}">${responseJson.data[i].url}</a>
     </li>`);
   }
   $(".results").removeClass("hidden");
 }
+
+//<img src="${responseJson.data[i].images[1].url}" alt="first-gallery-image">
 
 
 //calls fetch function for National Parks API
