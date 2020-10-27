@@ -1,2 +1,2 @@
 # National-Parks-API
-national parks API search for vacation spots
+National Parks API search for vacations around the US!
